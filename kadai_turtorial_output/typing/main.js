@@ -36,7 +36,7 @@ const createText = () => {
 typed = '';
 typedfield.textContent = typed;
 
-//配列からランダムにテキストを取得し画面に表示する
+//配列のインデックス数からランダムな数値を生成する
   let random = Math.floor(Math.random() * textLists.length);
 
 //配列からランダムにテキストを取得し画面に表示する
